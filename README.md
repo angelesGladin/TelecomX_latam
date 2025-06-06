@@ -28,8 +28,18 @@ Este proyecto tiene como objetivo identificar patrones de comportamiento en los 
 
 ## 📂 Estructura del Proyecto
 
-├── TelecomX_LATAM.ipynb 
-├── README.md 
++ TelecomX_LATAM.ipynb
+  
++ README.md
+  
++ /graficos_telecom/ 
+   - abandono.png
+   - categoricas
+   - binarios.png
+   - correlacion.png
+   - variables_numericas.html
+
+
 
 
 ---
@@ -48,9 +58,17 @@ Este proyecto tiene como objetivo identificar patrones de comportamiento en los 
 
 ---
 
-### Variables Binarias y Churn
+### Variables Binarias y abandono
 ![Variables binarias](https://github.com/user-attachments/assets/09fe3cb8-15f2-4492-9f55-074017d72b68)
 
+---
+### Variables Numéricas
+Este proyecto también incluye un **mapa interactivo** que muestra la localización de los clientes de Telecom X y su comportamiento frente al abandono del servicio.
+
+[Haz clic aquí para abrir el mapa](https://github.com/angelesGladin/TelecomX_latam/blob/main/graficos_telecom/variables_numericas.html)
+
+
+![Vista previa](https://github.com/user-attachments/assets/062f785a-1c10-4c3e-bf01-0f0e5f33bf82)
 
 
 ---
@@ -75,4 +93,25 @@ Este proyecto tiene como objetivo identificar patrones de comportamiento en los 
 1. **Clona o descarga el repositorio**:
    ```bash
    git clone https://github.com/angelesGladin/TelecomX_latam.git
+
+2. **Instala las dependencias (recomendado: crear un entorno virtual):**
+   ```bash
+   pip install pandas matplotlib seaborn numpy
+   
+3. **Abre el notebook en Jupyter o VSCode:**
+   ```bash
+   jupyter notebook TelecomX_LATAM.ipynb
   
+4. **Ejecuta las celdas secuencialmente para replicar todo el análisis.**
+
+
+## ✅ Estado del Proyecto
+
+✔️ Finalizado | 📅 Junio 2025
+
+
+## :bow: Autora
+
+[<img src="https://avatars.githubusercontent.com/u/160809137?s=400&u=53819c9e0bceb756b1c959b51623021829b0f8ae&v=4" width=115><br><sub>Angeles Morales</sub>](https://github.com/angelesGladin) 
+
+Proyecto desarrollado para TelecomX - Alura Latam - OracleONE G8
